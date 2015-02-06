@@ -42,6 +42,7 @@ public class MainActivity extends ActionBarActivity {
     
     public void countryApp(View view) {
     		Intent intent = new Intent();
+    		// to trigger the execution of another activity which is from another app
     		ComponentName name = new ComponentName("com.example.countryapp", 
     				"com.example.countryapp.CountryListActivity");
     		intent.setComponent(name);
